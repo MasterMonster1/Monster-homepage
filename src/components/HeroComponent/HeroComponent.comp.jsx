@@ -14,7 +14,8 @@ import {
   HeroFlexItem,
   BlockDiver,
   Button2,
-  styles
+  styles,
+  FooterLink
 
 } from './HeroComponent.styles';
 
@@ -46,10 +47,17 @@ const classes = useStyles();
    
           <div className={classes.root} >
             <div className={classes.column} >
-          <Button to="location.href='https://drive.google.com/file/d/17YzW1HocEyHFRXf-4wIWUk84tnK3B7c0/view?ts=60d9e1c4'">
+        
+           
+          <Button >
             
-       
+          <FooterLink href="https://drive.google.com/file/d/17YzW1HocEyHFRXf-4wIWUk84tnK3B7c0/view?ts=60d9e1c4" class="btn">
+            
+            
+            
             Whitepaper
+            
+            </FooterLink>
           
             
             </Button> </div>

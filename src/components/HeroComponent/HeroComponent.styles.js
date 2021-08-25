@@ -134,6 +134,21 @@ export const ImageContainer = styled.div`
   display: flex;
   justify-content: flex-end;
 `;
+
+export const FooterLink = styled.a`
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+ display: flex;
+ flexdirection: column;
+   text-overflow: ellipsis;
+   display: inline;
+  &:hover {
+      color: #00AD90;
+      transition: 200ms ease-in;
+  }
+`;
 export const styles = theme => ({
   root: {
     display: 'flex',
